@@ -1,0 +1,28 @@
+! Initial Router Configuration
+
+enable
+configure terminal
+hostname R1
+
+! Interface setup
+interface fa0/0
+ ip address 10.10.10.1 255.255.0.0
+ no shutdown
+
+! Telnet & VTY passwords
+line con 0
+ password cisco
+ login
+ exec-timeout 0 0
+line vty 0 4
+ password cisco
+ login
+
+! Enable secret
+enable secret peter
+
+! SSH setup
+ip domain-name example.com
+crypto key generate rsa modulus 1024
+line vty 0 4
+ transport input ssh_telnet

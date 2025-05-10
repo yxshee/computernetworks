@@ -1,0 +1,11 @@
+! DHCP Pool Configuration
+
+ip dhcp pool xyz
+ network 192.168.10.0 255.255.255.0
+ dns-server 1.2.3.4
+ lease 0 3
+ no ip bootp server
+
+interface fa0/0
+ ip address 192.168.10.1 255.255.255.0
+ no shutdown

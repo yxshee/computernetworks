@@ -1,0 +1,17 @@
+Subnet the network 200.1.2.0/24 into 4 subnets (/26):
+1) 200.1.2.0/26 – Hosts: .1–.62, Broadcast .63
+2) 200.1.2.64/26 – Hosts: .65–.126, Broadcast .127
+3) 200.1.2.128/26 – Hosts: .129–.190, Broadcast .191
+4) 200.1.2.192/26 – Hosts: .193–.254, Broadcast .255
+Each subnet has 64 addresses (62 usable).
+
+VPC configuration in GNS3 (example):
+
+PC1> ip 192.168.1.1 255.255.255.0 192.168.1.100
+PC1> ip dns 192.168.1.100
+PC1> show ip
+
+PC2> ip 192.168.1.2 255.255.255.0 192.168.1.100
+PC2> ip dns 192.168.1.100
+PC2> show ip
+PC2> ping 192.168.1.1

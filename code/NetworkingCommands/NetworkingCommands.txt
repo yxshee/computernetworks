@@ -1,0 +1,10 @@
+hostname: displays the system's host name.
+ipconfig: shows TCP/IP configuration (IP, subnet, DNS).
+getmac: lists MAC addresses of interfaces.
+ping: tests reachability by sending ICMP echoes.
+arp -a: shows ARP table entries.
+nbtstat: NetBIOS over TCP/IP stats.
+route: displays/modifies IP routing table.
+pathping: combines ping and tracert, shows packet loss per hop.
+netstat: shows network connections, ports, and stats.
+tracert: traces route to a destination.

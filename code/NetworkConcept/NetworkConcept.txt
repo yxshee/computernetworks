@@ -1,0 +1,15 @@
+Q1. Networking: The interconnection of multiple devices over a shared medium, enabling data exchange and resource sharing. Advantages include scalability, centralized resources, and redundancy; disadvantages include complexity and security concerns. Applications: LANs, WANs, MANs, cloud networks.
+
+Q2. Peer-to-peer vs. multipoint: Peer-to-peer is a direct link between two devices without hierarchy; multipoint connects one device to multiple endpoints over a shared medium.
+
+Q3. Components: NICs, switches, routers, cables, wireless APs, repeaters, hubs, bridges, firewalls, DNS/DHCP servers.
+
+Q4. Network types: LAN (local area), WAN (wide area), MAN (metro area); differ by geographic scope.
+
+Q5. Physical vs. logical topologies: Physical is the actual layout of cables and devices; logical is the path that data takes through the network.
+
+Q6. Network models: Client-server (centralized), distributed, peer-to-peer, cloud-based.
+
+Q7. Network topologies: Bus, star, ring, mesh, tree, hybrid.
+
+Q8. Protocols: TCP/IP (transport/network layers), HTTP/HTTPS (web), FTP (file transfer), SMTP (mail), DNS (name resolution).

@@ -1,0 +1,19 @@
+! Static Route Configuration
+
+! On R1
+interface fa0/0
+ ip address 192.168.1.1 255.255.255.0
+ no shutdown
+interface serial1/0
+ ip address 10.0.0.1 255.255.255.252
+ no shutdown
+ip route 172.16.0.0 255.255.0.0 10.0.0.2
+
+! On R2
+interface serial1/0
+ ip address 10.0.0.2 255.255.255.252
+ no shutdown
+interface fa0/0
+ ip address 172.16.0.1 255.255.0.0
+ no shutdown
+ip route 192.168.1.0 255.255.255.0 10.0.0.1

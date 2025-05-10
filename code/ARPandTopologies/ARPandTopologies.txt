@@ -1,0 +1,11 @@
+1) ARP Protocol demonstration:
+   - Use Wireshark on a live network; filter 'arp' to observe ARP request/reply frames.
+   - Trigger ARP by pinging a new IP on the same subnet.
+
+2) Topologies commands/practice:
+   - Point-to-point PC to PC: no configuration—direct link.
+   - PC to Router: configure PC IP, subnet, gateway; configure router interface IP.
+   - PC-to-PC-via-switch: connect both to switch; configure IPs and gateways.
+   - Bus topology: simulated via hub in GNS3.
+   - Ring topology: simulated via switch loopback/link simulator.
+   - Tree topology: combine star segments hierarchically.

@@ -1,0 +1,19 @@
+! RIP v2 Routing Configuration
+
+Router R1:
+router rip
+ version 2
+ network 100.1.1.0
+ network 20.1.1.0
+
+Router R2:
+router rip
+ version 2
+ network 172.16.0.0
+ network 100.1.1.0
+
+Router R3:
+router rip
+ version 2
+ network 10.2.2.0
+ network 20.1.1.0

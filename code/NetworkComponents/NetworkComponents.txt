@@ -1,0 +1,17 @@
+Q1. NIC: Interface card connecting a device to a network; types: Ethernet, Wi-Fi, fiber; works by framing data for transmission.
+
+Q2. Hub: Layer‑1 repeat device that broadcasts incoming frames to all ports; simple and inexpensive but inefficient and unsecure.
+
+Q3. Switch: Layer‑2 device that learns MACs and forwards frames only to the correct port; reduces collisions and improves security.
+
+Q4. Router: Layer‑3 device that routes IP packets between networks based on routing tables; connects LANs and WANs.
+
+Q5. Bridge: Layer‑2 device that filters and forwards frames between two segments; predecessor to modern switches.
+
+Q6. Cables/connectors: UTP (Cat5e/6), STP, fiber (single/multimode), coaxial; connectors: RJ‑45, LC, SC, BNC.
+
+Q7. Wireless AP: Connects wireless devices to a wired network, manages authentication and encryption.
+
+Q8. Proxy server: Intermediate server that forwards client requests, provides caching and content filtering.
+
+Q9. Firewall: Network security device that filters traffic based on rules; can be packet‑filtering, stateful, or application layer.
