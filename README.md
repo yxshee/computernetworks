@@ -1,4 +1,4 @@
-# Computer Networks Learning Repository
+# Computer Networks 
 
 A comprehensive collection of networking concepts, configurations, and practical examples for learning computer networking fundamentals.
 
