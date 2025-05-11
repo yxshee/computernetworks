@@ -28,6 +28,14 @@ This repository serves as a learning resource for computer networking concepts, 
 - [ARP and Topologies](./code/ARPandTopologies/) - ARP protocol demonstration and network topologies
 - [Networking Commands](./code/NetworkingCommands/) - Common networking commands reference
 
+### C Examples
+- Socket-based networking demos in C
+  - [CExamples Directory](./code/CExamples)
+    - `http_server.c` – simple HTTP server on port 8000
+    - `http_client.c` – basic HTTP GET client
+    - `dns_lookup.c` – resolve hostnames via DNS
+    - `traceroute.c` – trace route using ICMP and TTL
+
 ## 🔧 How to Use This Repository
 
 Each folder contains:
