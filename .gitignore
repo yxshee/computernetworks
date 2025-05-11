@@ -1,0 +1,23 @@
+# Compiled binaries and object files
+*.o
+*.out
+tcp_server
+tcp_client
+udp_server
+udp_client
+http_server
+http_client
+dns_lookup
+traceroute
+ping
+raw_arp
+
+# Simulation or log files
+*.log
+
+# VSCode, JetBrains, etc.
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
