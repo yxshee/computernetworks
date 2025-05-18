@@ -1,3 +1,5 @@
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmdjZXo3eWtnM2ZxcDh1Mm85aHdrMWJxejNvemZ1OHE2cmdsajJ3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A06UFEx8jxEwU/giphy.gif" width="505">
+
 # Computer Networks 
 
 A comprehensive collection of networking concepts, configurations, and practical examples for learning computer networking fundamentals.
